@@ -1,28 +1,24 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-
-# Compiled Static libraries
-*.lai
-*.la
+CMakeFiles
+CMakeScripts
+MLCPlusPlus.xcodeproj
+cmake_install.cmake
+CMakeCache.txt
+CPackConfig.cmake
+CPackSourceConfig.cmake
+MLCPlusPlusConfig.h
+bin/*
+src/*
+doc/*
+Makefile
+MLCPlusPlus.kdevelop
+MLCPlusPlus.kdevelop.filelist
+MLCPlusPlus.kdevses
 *.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+*.so
+MLCPlusPlus.build
+libMLCPlusPlus.dylib
+.DS_Store
+.cproject
+.project
+nbproject
+test/mlcpptest

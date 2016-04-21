@@ -23,4 +23,7 @@ int main(int argc, const char * argv[])
 	} // Destroys s (which no longer points to our string - as the reference was moved to the wrapper instance)
 
 	std::cout << "getString: " << getString(wrapper) << std::endl;
+	
+	// For STEPS 4, 5 See TestClasses.cpp
+	// For STEP 6, See TestClasses.hpp
 }

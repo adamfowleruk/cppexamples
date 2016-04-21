@@ -28,7 +28,7 @@ private:
 };
 
 /*
- * Working use of the unique_ptr with a container pattern
+ * Working use of the unique_ptr with a container pattern - See testpointerwrapper.cpp for full details.
  */
 class PointerWrapper {
 public:
@@ -38,7 +38,7 @@ public:
 	void setString(std::unique_ptr<std::string> str); // requires move semantics, and this class takes ownership
 	std::string& getString();
 private:
-	std::unique_ptr<std::string> ptr;
+	std::unique_ptr<std::string> ptr; // STEP 6: declare as a plain object, no pointers, no references, no const
 };
 
 /*

@@ -51,9 +51,15 @@ std::string* StringHolder::getString() {
 
 	}
 
+  /*
+   * Step 3: Accept just a plain unique_ptr for an IN ONLY (Sink) use of str
+   */
 	void PointerWrapper::setString(std::unique_ptr<std::string> str) { // by value, so take ownership
 		ptr = std::move(str); // move needed again, as moving from function to object ownership.
 	}
+	/*
+	 * Step 4: Return a reference to the string held by our internal unique_ptr instance - see TestClasses.hpp for its declaration
+	 */
 	std::string& PointerWrapper::getString() {
 		return *ptr;
 	}

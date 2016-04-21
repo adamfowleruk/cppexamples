@@ -10,7 +10,7 @@ C++ and C best practice websites. So I decided to code my own solutions.
 ## Current solutions
 
 - Using unique_ptr to avoid hanging pointers. Using them within a container class.
- - Solution: [testpointerwrapper.cpp](release/src/tesstpointerwrapper.cpp)
+ - Solution: [testpointerwrapper.cpp](release/src/testpointerwrapper.cpp)
  - Anti Pattern - String Holder: [teststringholder.cpp](release/src/teststringholder.cpp)
  - Anti Pattern - String Reference: [teststringreference.cpp](release/src/teststringreference.cpp)
 

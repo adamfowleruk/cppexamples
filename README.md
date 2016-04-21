@@ -5,15 +5,14 @@ This repository holds a set of working and full C++ examples.
 I was frustrated with the lack of complete answers on StackOverflow.com and other
 C++ and C best practice websites. So I decided to code my own solutions.
 
-WARNING: This repo contains both Patterns and Anti-Patterns for C++14.
-
+**WARNING:** This repo contains both Patterns and Anti-Patterns for C++14.
 
 ## Current solutions
 
 - Using unique_ptr to avoid hanging pointers. Using them within a container class.
- - Solution: [release/src/tesstpointerwrapper.cpp](testpointerwrapper.cpp)
- - Anti Pattern - String Holder: [release/src/teststringholder.cpp](teststringholder.cpp)
- - Anti Pattern - String Reference: [release/src/teststringreference.cpp](teststringreference.cpp)
+ - Solution: [testpointerwrapper.cpp](release/src/tesstpointerwrapper.cpp)
+ - Anti Pattern - String Holder: [teststringholder.cpp](release/src/teststringholder.cpp)
+ - Anti Pattern - String Reference: [teststringreference.cpp](release/src/teststringreference.cpp)
 
 ## How to build
 
@@ -21,7 +20,7 @@ First clone the repo.
 
 Do the following from a console:-
 ```sh
-cp cppexamples
+cd cppexamples
 ./clean.sh
 ./gen-eclipse.sh
 ```
